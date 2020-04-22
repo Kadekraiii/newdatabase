@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistem Basis Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">Welcome to My Website</h1>
+            <p>Nama : Kadek Rai Rieska Janwarda</p>
+            <p>NIM : E1E119030</p>
+            <p>Jurusan :Teknik Informatika</p>
+
+            <ul>
+                <li><a href="https://web.facebook.com">Facebook</a></li>
+                <li><a href="https://www.instragram.com">Instagram</a></li>
+                <li><a href="https://www.twitter.com">Twiter</a></li>
+                <li><a href="https://www.whatsapp.com">Whatsapp</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hero"></div>
+        <div class="content">
+            <h2>Sistem Basis Data</h2>
+            <p class="penulis">Ditulis oleh <a href="#">Kadek Rai Rieska Janwarda (NIM : E1E119030)</a> pada 21 April 2020.</p>
+
+        <div class="header2">
+                <div class="menjorok">
+                    <p align="justify">
+                    Dalam pembuatan sistem informasi yang baik, diperlukan sebuah penyimpanan data yang terstruktur agar data tersebut dapat digunakan kembali dengan baik. Penyimpanan data tersebut dinamakan dengan Database. 
+                    Dimana Database tersebut adalah suatu susunan atau kumpulan data operasional lengkap dari suatu organisasi atau perusahaaan yang dikelola secara terintegrasi dengan menggunakan metode tertentu, 
+                    dengan menggunakan komputer, sehingga mampu menyediakan informasi optimal yang diperlukan oleh pemakainya. 
+                    </p>
+
+                    <p align="justify">
+                    Sistem Database adalah sebuah sistem penyusun dan pengolahan record-record dengan menggunakan perangkat komputer, dengan tujuan untuk menyimpan atau merekam, serta memelihara keseluruhan data sebuah organisai/perusahaan
+                    sehingga mampu menyediakan informasi yang optimal dimana nantinya dapat digunakan untuk kepentingan proses pengambilan keputusan.
+                    </p>
+
+                    <p align="justify">
+                    Untuk mengetahui lebih dalam mengenai Sistem Database, dapat membaca penjelasan dari Chapter 1 - Chapter 7, di bawah ini!
+                    </p>
+                </div>
+        <br>===================================================================
+        <h1>Chapter 1 - Introduction</h1>
+            <b>1. Database / Basis data</b> 
+                <p align="justify">
+                    Basis data adalah kumpulan data yang disimpan secara sistematis di dalam komputer yang dapat diolahatau dimanipulasi menggunakan perangkat lunak (program aplikasi) untuk menghasilkan informasi.
+                </p>
+                <p align="justify">
+                    DBMS berisi informasi tentang perusahaan tertentu dan merupakan kumpulan data yang saling terkait dan seperangkat program untuk mengakses data. Banyak yang telah menggunakan database dan database ini pun sangat membantu dalam hal-hal maskapai penerbangan pada pemesanan dan pengaturan jadwal. 
+                </p>
+                <p align="justify">Adapun contohnya adalah sebagai sebagai berikut :</p>
+                <p align="justify">a.	Daftar siswa untuk kursus dan hasilkan daftar nama kelas.</p>
+                <p align="justify">b.	Untuk menghitung rata-rata IPK dan menghasilkan transkip nilai pada masa-masa awal. </p>
+            <b>2.	Sejarah Singkat Sistem Basis Data</b>
+                <p class="judul2" align="justify">Sejarah Sistem Basis Data I 1950-an dan awal 1960-an yaitu, pemrosesan data menggunakan pita magnet untuk menyimpan 4 kaset hanya memberikan akses berurutan, ted cold mendefinisikan model data relasional 4 akan memenangkan ACM Turing Award. Sejarah lanjutan I 1980-an penelitian prototipe relasional berkembang menjadi sistem komersial 4 SQL menjadi standar industry, Sistem Basis Data parallel dan terdistribusi Sistem Basis Data berorientasi objek  I 1990-an.</p>
+        <br>===================================================================
+
+        <h1>Chapter 2 - Introduction to the Relational Model</h1>
+            <b>1.	Model Data Relasi</b> 
+                <p align="justify">
+                    Model data relasional merupakan suatu cara yang menjelaskan bagaimana penaikan data yang dapat terlihat secara jelas. Jenis atribut himpunan nilai yang di izinkan untuk setiap atribut disebut dengan domain atribut I nilai atribut di perlukan atau biasanya tak terpisahkan I nilai khusus nol adalah anggota dari setiap domain. Diindikasikan bahwa nilainya itu “tidak diketahui”, nilai nol tersebutlah yang menyebabkan komplikasi dalam definisi banyak operasi. 
+                </p>
+            <b>2.	Relasi</b>
+                <p align="justify">Suatu relasi adalah himpunan n-tupel (a,a,.,A) di mana masing-masing a, e di nilai saat ini dari relasi di tentukan oleh table I elemen untuk menaikan sebuah tuple yang di wakili dari satu baris dalam tabel hubungan tidak berurutan, misalnya urutan tidak relevan (tupel di simpan dalam urusan acak) contohnya hubungan instruktur dengan tupel tidak berurutan.</p>
+            <b>3.	Bahasa Query Relasional</b>
+                <p align="justify">Bahasa Query Relasional, adalah Bahasa murni. Aljabar relasional, kalkulus relasional tuple, kalkulus relasional domain, 3 bahasa tersebut setara dalam daya komputasi. Aljabar relasional yaitu sekumpulan operasi yang digunakan untuk melakukan proses manipulasi data dalam rangka untuk mendapatkan informasi yang diperlukan dari dari data base. Relasi dalam bahasan ini dipergunakan untuk penamaan tabel beserta datanya, baik yang murni maupun yang sudah dilakukan modifikasi.</p>
+            <br>===================================================================
+            
+            <h1>Chapter 3 - Introduction to SQL</h1>
+                <b>1.	Pendahuluan SQL</b> 
+                    <p align="justify">IBM Sequel Language adalah bahasa yang dikembangkan sebagai bagian dari proyek sistem ‘R’ di IBM Labolatorium riset dari San Jose yang kemudian di ganti menjadi Structure Query Language (SQL).  Ada beberapa perkembangan ANSI dan ISO Standardt SQL, yaitu :</p>
+                    <p align="justify">a.	SQL-86</p>
+                    <p align="justify">b.	SQL-89</p>
+                    <p align="justify">c.	SQL-92 </p>
+                    <p align="justify">d.	SQL:1999 </p>
+                    <p align="justify">e.	SQL:2003 (Nama bahasa menjadi Y2K Compiant) </p>
+                <b>2.	Data Defenition Language (Bahasa Defenisi Data)</b>
+                    <p class="judul2" align="justify">SQL Data-Defenition Language (DDL), memungkin kita mengetahui informasi sebuah hubungan tentang skema dari setiap hubungan, nilai yang berkaitan dengan setiap sifat, kendala dalam integritas, dan informasi, seperti mempertahankan set indeks setiap hubungan, keamanan informasi, dan struktur penyimpanan fisik dari setiap hubungan di dalam suatu disk.</p>
+                <b>3.	Domain Types in SQL (Tipe Domain dalam SQL)</b>
+                    <p align="justify">a.	Char (n) <p/>
+                        <p align="justify">Digunakan untuk menyimpan data string ukuran tetap.<p/>
+                    <p align="justify">b.	Varchar<p/>
+                        <p align="justify">Digunakan untuk menyimpan data string ukuran dinamis/panjang dan panjang maksimum dapat ditentukan oleh pengguna.<p/>
+                    <p align="justify">c.	Int<p/>
+                        <p align="justify">Digunakan untuk menyimpan data bilangan bulat positif dan negatif.<p/>
+                    <p align="justify">d.	Smallint<p/>
+                        <p align="justify">Digunakan untuk menyimpan data bilangan bulat positif dan negatif. Namun data yang disimpan tidak besar seperti Int. <p/>
+                    <p align="justify">e.	Numeric (p,d)<p/>
+                        <p align="justify">Nomor poin tetap, dengan presisi yang ditentkan pengguna digit p, dengan d digit di kanan titik desimal. (Contoh : Numerik (3,1), memungkinkan 44,5 untuk disimpan dengan tepat, titapi tidak dapat 444,5 atau 0,32).<p/>
+                    <p align="justify">f.	Double Precision/ Real<p/>
+                        <p align="justify">Digunakan untuk menyimpan data bilangan pecahan positif dan negatif presisi ganda. <p/>
+                    <p align="justify">g.	Float<p/>
+                        <p align="justify">Digunakan untuk menyimpan data bilangan pecahan positif dan negatif presisi tunggal. <p/>
+
+                <b>4.	Create Tabel SQL</b>
+                    <p align="justify">Sebuah hubungan SQL dapat di defenisikan menggunakan perintah dalam membuat sebuah table.<p/>
+                        <p align="justify">Buat tabel r(A1  D1, A2  D2,.......... An  Dn)
+                        <p align="justify">Dimana :<p/>
+                        <p align="justify">•	“r” adalah nama dari relasi tersebut.<p/>
+                        <p align="justify">•	Setiap “A”, adalah nama atribut dalam skema relasi dari “r”.<p/>
+                        <p align="justify">•	“D” adalah nilai tipe data dalam domain atribut “A”.<p/>
+                <b>5.	Perintah Dasar dalam SQL</b>
+                        <p align="justify">Dalam pembuatan data base harus memperhatikan berapa hal berikut ini :<p/>
+                        <p align="justify">a.	Create <p/>
+                        <p align="justify">Perintah CREATE digunakan untuk membuat database dan juga tabel.<p/>
+                        <p align="justify">b.	Membuat database<p/>
+                        <p align="justify">Untuk membuat database gunakan perintah create database kemudian diikuti nama database yang dibuat..<p/>
+                        <b>CREATE DATABASE nama_database;</b>
+                        <p align="justify">c.	Membuat Tabel<p/>
+                        <p align="justify">Gunakan perintah create table diikuti dengan nama tabel dan definisi kolom/field yang ingin dibuat pada tabel tersebut. <p/>
+                        <p align="justify"> <b>CREATE TABLE nama_table (</b><p/>
+                        <p align="justify"><b>kolom1 tipe_data,</b><p/>             
+                        <p align="justify"><b>kolom2 tipe_data,</b><p/>               
+                        <p align="justify"><b>kolom3 tipe_data,</b><p/>            
+                        <p align="justify"><b>  .......</b><p/>                  
+                        <p align="justify"><b>);</b><p/>                  
+                        <p align="justify">d.	Alter<p/>
+                        <p align="justify">Perintah ALTER digunakan untuk menambah kolom, merubah nama kolom atau tipe data yang digunakan pada tabel yang sebelumnya telah dibuat.<p/>
+                        <p align="justify">e.	Menambah Kolom Baru <p/>
+                        <p align="justify">Untuk menambah field atau kolom pada tabel gunakan kata kunci ADD setelah perintah Alter Table<p/>
+                        <p align="justify"><b>ALTER TABLE nama_tabel</b><p/>
+                        <p align="justify"><b>ADD nama_kolom tipe_data;</b>.<p/>
+                                <p align="justify">f.	Menghapus Kolom<p/>
+                                <p align="justify">Untuk menghapus kolom pada tabel, gunakan kata kunci DROP pada kolom yang ingin dihapus.<p/>
+                                <p align="justify">e.	Menambah Kolom Baru <p/>
+                                <p align="justify">Untuk menambah field atau kolom pada tabel gunakan kata kunci ADD setelah perintah Alter Table<p/>
+                                <p align="justify"><b>ALTER TABLE nama_table</b><p/>
+                                <p align="justify"><b>DROP COLUMN nama_kolom;  </b>.<p/>
+                                        <p align="justify">g.	Drop<p/>
+                                        <p align="justify">Perintah DROP merupakan salah satu perintah dasar sql. Perintah ini dapat digunakan untuk menghapus database dan tabel.<p/>
+                                        <p align="justify">h.	Menghapus Database <p/>
+                                        <p align="justify">Menghapus database bisa gunakan perintah DROP DATABASE diikuti nama database yang akan dihapus.<p/>
+                                        <p align="justify"><b>DROP DATABASE nama_database;</b><p/>
+                                                <p align="justify">i.	Menghapus Tabel <p/>
+                                                <p align="justify">Menghapus tabel bisa gunakan perintah DROP TABLE diikuti nama tabel yang ingin dihapus.<p/>
+                                                <p align="justify"><b>DROP TABLE nama_tabel;</b><p/>                        
+                                                        <p align="justify">j.	Select <p/>
+                                                        <p align="justify">Perintah SELECT digunakan untuk menampilkan baris data dari sebuah tabel didalam database.<p/>
+                                                        <p align="justify"><b>SELECT * FROM nama_table;</b><p/>      
+                                                                <p align="justify">k.	Insert <p/>
+                                                                <p align="justify">Perintah INSERT digunakan untuk menambah satu atau lebih data kedalam tabel.<p/>
+                                                                <p align="justify"><b>INSERT INTO nama_tabel (kolom1, kolom2, kolom3, ...)</b><p/>      
+                                                                <p align="justify"><b>VALUES (nilai1, nilai2, nilai3, ...);</b><p/>      
+                                        <p align="justify">l.	Update<p/>
+                                        <p align="justify">Perintah update digunakan untuk merubah data yang ada pada sebuah tabel. Perintah UPDATE dapat digunakan untuk mengubah satu atau lebih kolom pada tabel atau bisa juga mengubah sebuah data atau banyak data pada tabel.<p/>
+                                        <p align="justify"><b>UPDATE nama_tabel</b><p/>      
+                                        <p align="justify"><b>SET kolom1 = nilai1, kolom2 = nilai2, ...);</b><p/>   
+                                        <p align="justify"><b>WHERE kondisi;</b><p/>   
+                                        <p align="justify">Untuk update data pada tabel harap diperhatikan pada bagian klausa WHERE, dimana kondisi yang kita definisikan akan menentukan data mana yang ingin di update.<p/>
+                                                <p align="justify">m.	Delete<p/>
+                                                <p align="justify">Perintah DELETE digunakan untuk menghapus data pada tabel. Data yang dihapus bisa satu data atau lebih.<p/>
+                                                <p align="justify"><b>DELETE FROM nama_tabel WHERE kondisi;</b><p/>        
+                                                <p align="justify">Harap diperhatikan ketika kita ingin menghapus data pada tabel yaitu pada bagian WHERE, kondisi yang kita definisikan menentukan data mana saja yang akan dihapus sesuai dengan kondisi yang kita definisikan.<p/>
+                                                        <p align="justify">n.	Where<p/>
+                                                        <p align="justify">Perintah WHERE digunakan untuk membuat kondisi/filter dengan kriteria tertentu yang kita definisikan.<p/>
+                                                        <p align="justify"><b>SELECT kolom1, kolom2, ...</b><p/>      
+                                                        <p align="justify"><b>FROM nama_tabel</b><p/>   
+                                                        <p align="justify"><b>WHERE kondisi;</b><p/>   
+                                                        <p align="justify">Pernyataan where tidak hanya dapat digunakan dengan perintah select, namun juga dapat digunakan dengan perintah lainnya seperti update dan delete.<p/>
+                                                                <p align="justify">o.	Order By<p/>
+                                                                <p align="justify">ORDER BY digunakan untuk mengurutkan baris hasil data secara ascending yaitu dari kecil ke besar dan descending dari besar ke kecil.<p/>
+                                                                <p align="justify"><b>SELECT kolom1, kolom2, ...</b><p/>      
+                                                                <p align="justify"><b>FROM nama_tabel</b><p/>   
+                                                                <p align="justify"><b>ORDER BY kolom1, kolom2, ... ASC|DESC;</b><p/>   
+                                                                <p align="justify">Pernyataan ORDER BY dapat digunakan untuk mengurutkan field dengan tipe integer maupun string.<p/>
+                                                                    <p align="justify">o.	Order By<p/>
+                                                                        <p align="justify">ORDER BY digunakan untuk mengurutkan baris hasil data secara ascending yaitu dari kecil ke besar dan descending dari besar ke kecil.<p/>
+                                                                        <p align="justify"><b>SELECT kolom1, kolom2, ...</b><p/>      
+                                                                        <p align="justify"><b>FROM nama_tabel</b><p/>   
+                                                                        <p align="justify"><b>ORDER BY kolom1, kolom2, ... ASC|DESC;</b><p/>   
+                                                                        <p align="justify">Pernyataan ORDER BY dapat digunakan untuk mengurutkan field dengan tipe integer maupun string.<p/>                                                                    
+                                                                                <p align="justify">p.	Group By<p/>
+                                                                                <p align="justify">Pernyataan GROUP BY digunakan untuk mengelompokan data yang sama, menjadi satu kelompok data.<p/>
+                                                                                <p align="justify"><b>FROM nama_tabel</b><p/>      
+                                                                                <p align="justify"><b>WHERE kondisi</b><p/>   
+                                                                                <p align="justify"><b>GROUP BY kolom1,kolom2,...;</b><p/>   
+                                                                                <p align="justify">GROUP BY juga dapat digunakan dengan fungsi agregat seperti max(),avg(),sum().<p/>
+                                                                                        <p align="justify">q.	Like<p/>
+                                                                                        <p align="justify">Pernyataan LIKE digunakan untuk mencari kata kunci tertentu pada sebuah field/kolom berdasarkan pola yang ditentukan.<p/>
+                                                                                        <p align="justify"><b>FROM nama_tabel</b><p/>      
+                                                                                        <p align="justify"><b>WHERE kolom LIKE buat_pola;</b><p/>   
+                <br>===================================================================
+
+              <h1>Chapter 4 - Intermediate SQL</h1>
+              <b>1.	Join  Expressions</b>
+              <p align="justify">Join Expressions adalah proses bergabung dengan operasi mengambil dua Relasi dan kembali sebagai akibat relasi<p/>
+              <b>2.	Views</b>
+                  <p align="justify">View adalah perintah query yang di simpan pada database dengan suatu nama tertentu, sehingga bisa digunakan setiap saat  untuk melihat data tanpa menuliskan ulang query tersebut. Syntax dasar perintah untuk membuat view adalah sebagai berikut :<p/>
+                        <p align="justify"><b>CREATE VIEW View name AS</b><p/>      
+                        <p align="justify"><b>SELECT column name(s)</b><p/>   
+                        <p align="justify"><b>FROM table name</b><p/>              
+                        <p align="justify"><b>WHERE Condition</b><p/>              
+            <b>3.	Transactions</b>
+                    <p align="justify">Transactions adalah sekelompok operasi sekuensial untuk memanipulasi data dalam database, yang dilakukan seolah-olah merupakan satu unit kerja tunggal. Dengan kata lain, Transactions akan berhasil jika setiap operasi gagal. individu dalam group juga berhasil. Jika salah satu operasi dalam transations gagal.<p/>
+            <b>4.	Integrity Constraints</b>
+                    <p align="justify">Integrity Constraints salah satu fungsi dari Database management system (DBMS) adalah Integrity Constraints, yakni memastikan baik data di dalam  basis data maupun pengubahan data selalu memenuhi aturan. <p/>
+                    <p align="justify">a.	not null<p/>
+                        <p align="justify">Atribut not null digunakan pada hampir semua tipe data, fungsinya untuk memastikkan bahwa nilai pada kolom tersebut tidak boleh kosong. <p/>
+                                <p align="justify"><b>CREATE TABLE dosen (</b><p/>      
+                                <p align="justify"><b>nip INTEGER</b><p/>                                                          
+                                <p align="justify"><b>CONSTRAINT PK_dosen_nip PRIMARY KEY NOT NULL,</b><p/>
+                                <p align="justify"><b>nama_dosen VARCHAR(45),</b><p/>              
+                                <p align="justify"><b>alamat_dosen VARCHAR(255)</b><p/>        
+                                                                                     
+                                <p align="justify">b.	primary key<p/>
+                                    <p align="justify">Primary key adalah suatu nilai dalam basis data yang di gunakan untuk mengidentifikasi suatu baris dalam tabel. <p/>
+                                            <p align="justify"><b>CREATE TABLE dosen (</b><p/>      
+                                            <p align="justify"><b>nip INTEGER</b><p/>   
+                                            <p align="justify"><b>nama_dosen VARCHAR(45),</b><p/>              
+                                            <p align="justify"><b>alamat_dosen VARCHAR(255)</b><p/>                                                          
+                                            <p align="justify"><b>CONSTRAINT pk_dosen_nip PRIMARY KEY
+                                                <br>);
+                                            </b><p/>                                                                                        
+
+                                            <p align="justify">c.	Foreign key<p/>
+                                                <p align="justify">Foreign key berguna untuk mendefinisikan kolom-kolom pada suatu tabel yang nilainnya mengacu ke tabel lain, jadi kolom foreign key nilainya harus di ambil dari nilai kolom pada tabel lain.<p/>
+                                                        <p align="justify"><b>CREATE TABLE mahasiswa(nim INTEGER CONSTRAINT pk_mahasiswa_nim </b><p/>      
+                                                        <p align="justify"><b>PRIMARY  KEY</b><p/>   
+                                                        <p align="justify"><b>nip INTEGER</b><p/>              
+                                                        <p align="justify"><b>nama_mhs VARCHAR(45),</b><p/>                                                          
+                                                        <p align="justify"><b>alamat_mhs VARCHAR(255)
+                                                            <br>);
+                                                        </b><p/>     
+
+                                                        <p align="justify">d.	unique ( A1, A2, …, Am)<p/>
+                                                            <p align="justify">Berikut adalah contoh penggunaan UNIQUE dan PRIMARY KEY secara in-line:<p/>
+                                                                    <p align="justify"><b>CREATE TABLE dosen ( </b><p/>      
+                                                                    <p align="justify"><b>nip INTEGER</b><p/>   
+                                                                    <p align="justify"><b>CONSTRAINT pk_dosen_nip PRIMARY KEY ,</b><p/>              
+                                                                    <p align="justify"><b>nama_dosen VARCHAR(45) CONSTRAINT UQ_dosen_nama</b><p/>                                                          
+                                                                    <p align="justify"><b>UNIQUE,</b><p/> 
+                                                                    <p align="justify"><b>alamat_dosen VARCHAR(255)
+                                                                        <br>);
+                                                                    </b><p/>                                                                                        
+                        
+                                                                    <p align="justify">e.	check (P)<p/>
+                                                                        <p align="justify">Constraint CHECK fungsinya untuk pengecekan apakah sebuah kolom memenuhi sebuah kondisi spesifik yang dievaluasi dengan nilai boolean. Jika evaluasi menghasilkan nilai FLASE, maka oracle akan mengeluarkan eksepsi, dan klausa insert atau update akan gagal. Berikut adalah contoh penggunaan constraint CHECK dalam sebuah tabel:<p/>
+                                                                                <p align="justify"><b>CREATE TABLE rekening ( </b><p/>      
+                                                                                <p align="justify"><b>No_rekening CHAR(15) CONSTRAINT</b><p/>   
+                                                                                <p align="justify"><b>pk_rekening_no_rekening NOT NULL,</b><p/>              
+                                                                                <p align="justify"><b>Kode_cabang CHAR(5)</b><p/>                                                          
+                                                                                <p><b>CONSTRAINT fk_rekening_kode_cabang FOREIGN KEY REFERENCES cabang_bank(kode_cabang),</b><p/> 
+                                                                                <p align="justify"><b>Pin CHAR(6),</b><p/> 
+                                                                                <p align="justify"><b>Saldo MONEY CONSTRAINT chk_rekening_saldo CHECK(saldo > 50000)
+                                                                                </b><p/>        
+
+                                                                                <p align="justify"><b> 5.	Referential Integrity</b><p/>  
+                                                                                    <p align="justify">Referential Integrity adalah aturan yang diterapkan untuk foreign key, yakni jika terdapat sebuah foreign key di sebuah tabel maka nilai dari foreign key harus sesuai dengan nilai candidate key dari tabel yang di acu oleh foreign key atau bernilai null (jika atribut foreign key bukan required data)<p/>
+                                                                                            <p align="justify"><b>Cascading Actions in Referential Integrity</b><p/>      
+                                                                                            <p align="justify"><b>•	create table course (</b><p/>   
+                                                                                            <p align="justify"><b>    course_id   char(5) primary key,</b><p/>              
+                                                                                            <p align="justify"><b>title varchar(20),</b><p/>                                                          
+                                                                                            <p align="justify"><b>    dept_name varchar(20) references department
+                                                                                                <br>)
+                                                                                            </b><p/> 
+                                                                                            <p align="justify"><b>•	create table course (</b><p/>   
+                                                                                                <p align="justify"><b>        …</b>              
+                                                                                                <p align="justify"><b>    dept_name varchar(20),</b><p/>                                                          
+                                                                                                <p align="justify"><b>    foreign key (dept_name) references department</b><p/>  
+                                                                                                <p align="justify"><b>    on delete cascade </b><p/>  
+                                                                                                <p align="justify"><b>    on delete cascade 
+                                                                                                    <br>...
+                                                                                                </b><p/> 
+    
+                                                                                                <br>===================================================================
+
+                                                                                                <h1>Chapter 5 - Advanced SQL</h1>
+                                                                                                <b>1.	Mengakses SQL Dengan Bahasa Pemrograman</b>
+                                                                                                    <p align="justify">
+                                                                                                            API (aplikasi-program interface) untuk program berinteraksi dengan server basis data, Aplikasi ini berguna untuk untuk terhubung dengan server database, kirim perintah SQL ke server database, mengambil tupel hasil satu-per-satu ke dalam variabel program.
+                                                                                                            Berbagai aplikasi yang digunakan untuk mengakses SQL adalah beragam, tergantung dengan bahasa pemrograman yang kita pakai, aplikasinya adalah ODBC (Open Database Connectivity) works with C, C++, C#, and Visual Basic.  Other API’s such as ADO.NET sit on top of ODBC, JDBC (Java Database Connectivity) works with Java, dan Embedded SQL
+                                                                                                    </p>
+                                                                                                <b>2.	Open Database Connectivity (ODBC) Standard </b>
+                                                                                                    <p align="justify">Standar untuk program aplikasi untuk berkomunikasi dengan server database, dan bekerja untuk bahasa C, C++, dan Visual Basic. Applications such as GUI, spreadsheets, etc. dapat menggunakan ODBC Application Program Interface (API) ini berfungsi untuk  membuka koneksi dengan database, mengirim pertanyaan dan pembaruan,dan dapatkan kembali hasilnya.</p>
+                                                                                                <b>3.	JDBC (Java Database Connectivity)</b>
+                                                                                                    <p align="justify">JDBC adalah Java API untuk berkomunikasi dengan sistem database yang mendukung SQL. JDBC mendukung berbagai fitur untuk query dan memperbarui data, dan untuk mengambil hasil query. JDBC juga mendukung pengambilan metadata, seperti menanyakan tentang relasi yang ada dalam database dan nama serta tipe atribut relasi.</p>
+                                                                                                <b>4.	Embanded SQL</b>
+                                                                                                    <p align="justify">Secara default, setiap pernyataan SQL diperlakukan sebagai transaksi terpisah yang dilakukan secara otomatis dan merupakan ide buruk untuk transaksi dengan banyak pembaruan, dan juga dapat mematikan komit otomatis pada koneksi. Seperti misal :, conn.setAutoCommit (false), transaksi kemudian harus dilakukan atau dibatalkan secara eksplisit, conn.commit (); atau conn.rollback ();, conn.setAutoCommit (true) mengaktifkan komit otomatis. Standar SQL mendefinisikan embeddings SQL dalam berbagai bahasa pemrograman seperti C, C ++, Java, Fortran, dan PL / 1, Bahasa tempat query SQL disematkan disebut sebagai bahasa host, dan struktur SQL yang diizinkan dalam bahasa host terdiri dari SQL yang disematkan.</p>
+                                                                                                <b>5.	Ekstensi ke SQL</b>
+                                                                                                    <p align="justify">Terdapat beberapa tahapan untuk melakukan ekstensi ke SQL yakni dengan cara Sql functions & Table Functions, SQL Procedures, Language Constructs for Procedures & Functions, Language Constructs , External Language Routines</p>
+                                                                                                <b>6.	Melakukan Triggers</b>
+                                                                                                    <p align="justify">Terdapat beberapa tahapan untuk melakukan triggers  yakni dengan cara Triggering Events and Actions in SQL, Trigger to Maintain credits_earned value, Statement Level Triggers. Trigger digunakan sebelumnya untuk tugas-tugas seperti dibawah ini yakni: menyimpan data ringkasan (mis., Total gaji setiap departemen), mereplikasi basis data dengan merekam perubahan pada relasi khusus (disebut relasi perubahan atau delta) dan memiliki proses terpisah yang menerapkan perubahan pada replica.</p>
+                                                                                                <b>7.	Eksekusi Cascadings</b>
+                                                                                                    <p align="justify">Terdapat beberapa tahapan untuk melakukan eksekusi cascading yakni dengan cara Recursive Queries, Recursion in SQL, Windowing, OLAP</p>
+                                                                            
+                                                                                                    <br>===================================================================
+
+                                                                                                    <h1>Chapter 6 Formal Relational Query Languages</h1>
+                                                                                                    <b>1.	Aljabar Relational </b>
+                                                                                                        <p align="justify">
+                                                                                                                Aljabar Relational adalah kumpulan operasi terhadap relasi, dimana setiap operasi menggunakan satu atau lebih relasi untuk menghasilkan relasi baru.
+                                                                                                        </p>
+                                                                                                    <b>a.	Operasi Selection</b>
+                                                                                                        <p align="justify">Operasi selection dapat didefiniskan sebagai ”Kumpulan semua tuple-tuple/record-record dalam suatu tabel yang memenuhi kondisi P”. Operasi selection berfungsi untuk menyeleksi tuple-tuple yang memenuhi predikat yang diberikan dari sebuah tabel relasi. Simbol sigma “σ” digunakan untuk menunjukkan operasi select. Predikat muncul sebagai subscript dari σ dan kondisi yang diinginkan yang ditulis dalam predikat. Argumen diberikan dalam tanda kurung yang mengikuti σ dan berisi tabel relasi yang dimaksud.</p>
+                                                                                                    
+                                                                                                        <p align="justify">Contoh penggunaan operasi selection: Tampilkan daftar dosen yang berjenis kelamin pria dari tabel Dosen.</p>
+                                                                                                    <b>Aljabar relasional : σ Jenis_kelamin=Pria(Dosen)</b>
+
+                                                                                                    <p align="justify"><b>b.	Operasi Projection</b><p/>
+                                                                                                        <p align="justify">Operasi projection berfungsi untuk memilih nilai atribut-atribut tertentu saja dari sebuah tabel relasi. Simbol phi “π” digunakan untuk menunjukkan operasi projection. Predikat muncul sebagai subscript dari π dan hanya nama atribut yang diinginkan yang ditulis dalam predikat. Argumen diberikan dalam tanda kurung yang mengikuti π dan berisi tabel relasi yang dimaksud.</p>
+                                                                                                
+                                                                                                        <p align="justify">Contoh penggunaan operasi projection : Tampilkan NIP dan Nama_dosen dari tabel Dosen</p>
+                                                                                                    <b>Aljabar Relasional: πNIP (Dosen) ∪  NIP (Mengajar)</b>
+                                                                                    
+                                                                                                    <p align="justify"></p><b>c.	Operasi Union</b><p/>
+                                                                                                    <p align="justify">Operasi union berfungsi untuk mendapatkan gabungan nilai atribut dari sebuah tabel relasi dengan nilai atribut dari tabel relasi lainnya. Simbol “∪” digunakan untuk menunjukkan operasi union. Operasi union bernilai benar bila terpenuhi 2 kondisi, yaitu : Derajat dari 2 tabel relasi yang dioperasikan harus sama dan domain dari atribut yang dioperasikan juga harus sama.</p>
+                                                                                            
+                                                                                                    <p align="justify">Contoh penggunaan operasi set difference : Tampilkan NIP (dari tabel Dosen) Set–difference dari NIP (dari tabel Mengajar).</p>
+                                                                                                <b>Aljabar relasional : π NIP,Nama_dosen(Dosen)</b>
+                                                                                                
+                                                                                                <p align="justify"><b>d.	Operasi Set Difference</b><p/>
+                                                                                                    <p align="justify">Operasi set difference berfungsi untuk mendapatkan nilai yang ada dalam sebuah tabel relasi, tapi tidak ada dalam tabel relasi lainnya. Simbol “-“ digunakan untuk menunjukkan operasi set difference.</p>
+                                                                                        
+                                                                                                    <p align="justify">Contoh penggunaan operasi union : Tampilkan NIP( dari relasi Dosen) Union dari NIP (dari tabel Mengajar)</p>
+                                                                                                <b>Aljabar relasional: πNIP (Dosen) – NIP (Mengajar)</b>                
+            
+                                                                                                <p align="justify"></p><b>e.	Operasi Intersection</b><p/>
+                                                                                                <p align="justify">Operasi set intersection berfungsi untuk mendapatkan nilai yang ada dalam sebuah tabel relasi dan juga ada dalam tabel relasi lainnya. Simbol “∩“ digunakan untuk menunjukkan operasi set intersection.</p>
+                                                                                    
+                                                                                                <p align="justify">Contoh penggunaan operasi set intersection : Tampilkan NIP (dari tabel Dosen) Set Intersection dengan NIP (dari tabel Mengajar).</p>
+                                                                                            <b>Aljabar relasional: πNIP (Dosen) ∩ πNIP (Mengajar)</b>      
+
+                                                                                            <p align="justify"></p><b>f.	Operasi Cartesian Product</b><p/>
+                                                                                            <p align="justify">Operasi cartesian product berfungsi untuk mengkombinasikan informasi yang ada dalam 2 tabel relasi dan menghasilkan sebuah tabel relasi yang baru. Simbol “x“ digunakan untuk menunjukkan operasi cartesian product.</p>
+                                                                                
+                                                                                            <p align="justify">Contoh penggunaan operasi cartesian product : Tampilkan Kode_mk, Nama_mk, Sks (dari tabel Matakuliah), Kelas (dari tabel Mengajar) dimana kelas yang diajar adalah kelas A.</p>
+                                                                                        <b>πKode_mk,Nama_mk,Sks,Kelas (σKelas=A ˄ Mengajar.Kode_mk=Matakuliah.Kode_mk(Mengajar x Matakuliah))</b>      
+
+                                                                                        <p align="justify"></p><b>g.	Operasi Rename </b><p/>
+                                                                                        <p align="justify">Operasi rename (p) adalah sebuah operasi untuk menyalin table lama ke dalam table yan baru. Sintaks yang digunakan dalam opersi union ini adalah “p [nama_table] (table_lama)”</p>
+                                                                            
+                                                                                        <p align="justify">Contoh penggunaan dalam operasi rename : Membentuk table dengan nama DosenNew beserta datanya dimana jenis kelamin adalah ‘Pria’</p>
+                                                                                    <b>Aljabar relasional : p DosenNew (σ jkelami=’Pria’) (Dosen)</b>      
+
+                                                                                    <p align="justify"></p><b>2.	Kalkulus Relasional </b><p/>
+                                                                                        <p align="justify">
+                                                                                      <p align="justify">     Pengguna mendeskripsikan informasi yang dikehendaki tanpa memberitahu prosedur spesifik untuk memperolah informasi. Pada model relasional, bahasa formal non prosedural adalah bahasa kalkulus, predikat relasional yang diekspresikan dengan menspesifikasikan predikan terhadap tupe atau domain  yang harus dipenuhi. Kalkulus relasional dibagi menjadi 2, yaitu :
+                                                                                        </p>
+                                                                                        <p align="justify"></p><b>a.	Kalkulus Relasional Berdasarkan Tupel</b><p/>
+                                                                                        <p align="justify"></p><b>b.	Kalkulus Relasional Berdasarkan Domain</b><p/>
+
+                                                                                        <br>===================================================================
+
+                                                                                        <h1>Chapter 7 - Database Design : The ER Approach</h1>
+                                                                                        <b>1.	Proses Desain</b>
+                                                                                            <p align="justify">
+                                                                                                    Tahap awal perancangan basis data adalah untuk mengkarakterisasi sepenuhnya kebutuhan data calon pengguna basis data. Selanjutnya, memilih model data dan, dengan menerapkan konsep model data yang dipilih, menerjemahkan persyaratan ke dalam skema konseptual dari database. Proses perpindahan dari model data abstrak ke implementasi basis data berlangsung dalam dua fase desain akhir, yaitu Desain Logis (Memutuskan skema database. Desain basis data mengharuskan kami menemukan koleksi skema hubungan yang "baik".), dan Desain Fisik (Menentukan tata letak fisik basis data.)
+                                                                                            </p>
+                                        
+                                                                                        <p align="justify"><b>2.	Pemodelan Basis Data</b></p>
+                                                                                            <p align="justify">
+                                                                                                    Mode data ER dikembangkan untuk memfasilitasi desain database dengan memungkinkan spesifikasi skema perusahaan yang mewakili struktur logis keseluruhan dari database dan sangat berguna dalam memetakan makna dan interaksi perusahaan dunia nyata ke dalam skema konseptual. Model data ER menggunakan tiga konsep dasar,yaitu Entity sets (set entitas), Relationship sets (set hubungan) dan Attributes (Atribut)
+                                                                                            </p>
+
+                                                                                            <p align="justify"><b>3.	E-R Diagram</b></p>
+                                                                                            <p align="justify">
+                                                                                                    Dalam diagram E-R, himpunan entitas yang lemah digambarkan melalui persegi panjang ganda. Set hubungan yang menghubungkan entitas lemah yang ditetapkan ke set entitas entitas kuat digambarkan oleh persegi Panjang biasa, dan attribut digambarkan dengan benrtuk oval.
+                                                                                            </p>
+
+                                                                                            <p align="justify"><b>4.	Design of the Bank Database</b></p>
+                                                                                            <p align="justify">
+                                                                                                    Himpunan entitas dan himpunan relasi dapat dinyatakan secara seragam sebagai skema hubungan yang mewakili konten basis data. Basis data yang sesuai dengan diagram E-R dapat diwakili oleh kumpulan skema.Untuk setiap himpunan entitas dan himpunan hubungan ada skema unik yang diberikan nama himpunan entitas yang terkait atau himpunan hubungan.
+                                                                                            </p>
+
+                                                                                            <p align="justify"><b>5.	Design Issue (Masalah Desain)</b></p>
+                                                                                            <p align="justify">
+                                                                                                    Dalam mendesain sebuah sistem Basis Data atau Database terdapat beberapa masalah yang sering di jumpai dan sering menimbulkan kesalahpahaman, antara lain adalah:
+
+                                                                                                <br>a.	Entities vs. Attributes (Entitas vs. Atribut)
+                                                                                                <br>b.	Entities vs. Relationship sets (Entitas vs. Kumpulan hubungan)
+                                                                                                <br>c.	Binary Vs. Non-Binary Relationships (Biner Vs. Hubungan Non-Biner)
+                                                                                                <br>d.	Converting Non-Binary Relationships to Binary Form (Mengubah Hubungan Non-Biner ke Bentuk Biner)
+                                                                                                <br>e.	E-R Design Decisions (Keputusan Desain E-R)
+                                                                                                <p/>
+
+                                                                                                <p align="justify"><b>6.	Unified Modeling Language (UML)</b></p>
+                                                                                                <p align="justify">
+                                                                                                        UML memiliki banyak komponen untuk memodelkan aspek-aspek berbeda dari keseluruhan sistem perangkat lunak. Diagram Kelas UML sesuai dengan Diagram E-R, tetapi memiliki beberapa macam perbedaan, salah satunya adalah:
+                                                                                                <br>
+                                                                                                <br>1. Diagram ER,
+                                                                                                Entitas dengan atribut (sederhana, komposit, multinilai, diturunkan)
+                                                                                                <br>2. UML,
+                                                                                                Clas dengan atribut dan metode sederhana (awalan atribut: + = publik, - = pribadi, # = dilindungi)
+                                                                                            
+                                                                                                </p>
+                                                                                                <p align="justify">Set hubungan biner diwakili dalam UML dengan hanya menggambar garis yang menghubungkan set entitas. Nama himpunan hubungan ditulis bersebelahan dengan garis. Peran yang dimainkan oleh suatu himpunan entitas dalam himpunan relasi juga dapat ditentukan dengan menulis nama peran pada baris, berdekatan dengan himpunan entitas. Nama himpunan hubungan alternatifnya dapat ditulis dalam kotak, bersama dengan atribut himpunan hubungan, dan kotak terhubung, menggunakan garis putus-putus, ke garis yang menggambarkan himpunan hubungan.
+                                                                                                <p/>
+<p align="justify"><br>===================================================================</p>
+<b>Untuk mendownload materi diatas silahkan tekan sub judul dibawah ini!</b>
+            <ul>
+                <li><a href="https://drive.google.com/open?id=14z0K-gHGWGIAq25MtQVlqmJWUw0kP_Uh">1). Chapter 1 - Introduction</a></li>
+                <li><a href="https://drive.google.com/open?id=15ov81P0iGTwUIXzoqs3qAvinBUY4oPh2">2). Chapter 2 - Introduction to the Relational Model</a></li>
+                <li><a href="https://drive.google.com/open?id=1R2Z9zN9uLRAuIbu6PtLP8qTrJqCeU_0h">3). Chapter 3 - Introduction to SQL</a></li>
+                <li><a href="https://drive.google.com/open?id=1glZPf9gUzvzhJwi5ixpjlWH0tNu7iPei">4). Chapter 4 - Intermediate SQL</a></li>
+                <li><a href="https://drive.google.com/open?id=1MYbDxWzZEI-qB0_3-eqEEjdF1jdCqqR9">5). Chapter 5 - Advanced SQL</a></li>
+                <li><a href="https://drive.google.com/open?id=1QQ3hEVigWejMuhDcm9XUIXBM9NbiqbBM">6). Chapter 6 - Formal Relational Query Languages</a></li>
+                <li><a href="https://drive.google.com/open?id=1xFj3EUm2v9ZgjiKbrDY5PaBBZeNbJ0Pe">7). Chapter 7 - Database Design : The Entity-Relatonalship Approach</a></li>
+            </ul>
+        <p><b>Terimakasih telah mengunjungi website ini, semoga bermanfaat :)</b></p>
+        </div>
+
+      
+        </div>
+        <form id="formkomentar">
+            <div> 
+                <textarea name="Komentar" rows="5" cols="20" placeholder="Ketikan Komentar..........."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Tambahkan Komentar"/>
+            </div>
+        </form>
+        <div class="footer">
+            <p class="copy">Copyright 2020.Kadek Rai Rieska Janwarda.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
